@@ -1,0 +1,10 @@
+name: learning_actions
+on: workflow_dispatch #for manually triggerng the workflow
+jobs:
+  first:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greeting
+        run: echo "hi"
+      - name: end
+        run: echo "bye"
